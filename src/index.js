@@ -1,13 +1,25 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
+import 'bulma/css/bulma.css'
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { applyMiddleware, createStore } from 'redux';
+import thunk from 'redux-thunk';
+import {quoteReducer} from './reducer';
+import {initialState} from './reducer';
+import { Provider } from 'react-redux';
+
+const middlewares = [thunk];
+
+const store = createStore(quoteReducer, initialState, applyMiddleware(...middlewares));
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  <Provider store={store}> 
+    <React.StrictMode>
+      <App />
+    </React.StrictMode>
+  </Provider>,
   document.getElementById('root')
 );
 
