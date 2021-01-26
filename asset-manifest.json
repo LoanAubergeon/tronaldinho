@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/tronaldinho/static/css/main.7d180cbf.chunk.css",
+    "main.js": "/tronaldinho/static/js/main.8d2cb9d4.chunk.js",
+    "main.js.map": "/tronaldinho/static/js/main.8d2cb9d4.chunk.js.map",
+    "runtime-main.js": "/tronaldinho/static/js/runtime-main.f410262c.js",
+    "runtime-main.js.map": "/tronaldinho/static/js/runtime-main.f410262c.js.map",
+    "static/css/2.1f785abf.chunk.css": "/tronaldinho/static/css/2.1f785abf.chunk.css",
+    "static/js/2.0074f806.chunk.js": "/tronaldinho/static/js/2.0074f806.chunk.js",
+    "static/js/2.0074f806.chunk.js.map": "/tronaldinho/static/js/2.0074f806.chunk.js.map",
+    "static/js/3.133d9a4e.chunk.js": "/tronaldinho/static/js/3.133d9a4e.chunk.js",
+    "static/js/3.133d9a4e.chunk.js.map": "/tronaldinho/static/js/3.133d9a4e.chunk.js.map",
+    "index.html": "/tronaldinho/index.html",
+    "static/css/2.1f785abf.chunk.css.map": "/tronaldinho/static/css/2.1f785abf.chunk.css.map",
+    "static/css/main.7d180cbf.chunk.css.map": "/tronaldinho/static/css/main.7d180cbf.chunk.css.map",
+    "static/js/2.0074f806.chunk.js.LICENSE.txt": "/tronaldinho/static/js/2.0074f806.chunk.js.LICENSE.txt",
+    "static/media/trump.f2f6e8fe.png": "/tronaldinho/static/media/trump.f2f6e8fe.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f410262c.js",
+    "static/css/2.1f785abf.chunk.css",
+    "static/js/2.0074f806.chunk.js",
+    "static/css/main.7d180cbf.chunk.css",
+    "static/js/main.8d2cb9d4.chunk.js"
+  ]
+}
