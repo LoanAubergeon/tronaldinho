@@ -5,6 +5,7 @@ import {GET_RANDOM_QUOTE,
 export const initialState = {
     pending: false,
     quote: "",
+    date: "",
     error: null
 }
 
@@ -20,7 +21,8 @@ export function quoteReducer(state = initialState, action) {
             return {
                 ...state,
                 pending: false,
-                quote: action.quote
+                quote: action.quote,
+                date: action.date
             }
         case GET_RANDOM_QUOTE_ERROR:
             return {
@@ -34,5 +36,6 @@ export function quoteReducer(state = initialState, action) {
 }
 
 export const getRandomQuote = state => state.quote;
+export const getQuoteDate = state => state.date;
 export const getRandomQuotePending = state => state.pending;
 export const getRandomQuoteError = state => state.error;

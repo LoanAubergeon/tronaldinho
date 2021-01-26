@@ -11,7 +11,7 @@ function fetchQuote() {
             if(res.error) {
                 throw(res.error);
             }
-            dispatch(getRandomQuoteSuccess(res.value));
+            dispatch(getRandomQuoteSuccess(res.value, res.appeared_at));
             return res.value;
         })
         .catch(error => {

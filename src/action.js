@@ -8,10 +8,11 @@ export function getRandomQuote() {
     }
 }
 
-export function getRandomQuoteSuccess(quote) {
+export function getRandomQuoteSuccess(quote, date) {
     return {
         type: GET_RANDOM_QUOTE_SUCCESS,
-        quote: quote
+        quote: quote,
+        date: date
     }
 }
 
